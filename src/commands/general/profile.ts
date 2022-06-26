@@ -3,14 +3,14 @@ import { Command } from 'abstractions/Command'
 import { isSlashCommand } from 'decorators/commands-decorators'
 import { RESTPostAPIApplicationCommandsJSONBody } from 'discord-api-types/v9'
 import { CacheType, CommandInteraction, MessageEmbed } from 'discord.js'
-import { YamaokaClient } from 'structure/YamaokaClient'
+import { YourClient } from 'structure/YourClient'
 
 @isSlashCommand(true)
 export default class HelpCommand extends Command {
   public data: RESTPostAPIApplicationCommandsJSONBody
-  public client: YamaokaClient
+  public client: YourClient
 
-  constructor(client: YamaokaClient) {
+  constructor(client: YourClient) {
     super()
 
     this.client = client

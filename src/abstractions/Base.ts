@@ -1,5 +1,5 @@
-import { YamaokaClient } from 'structure/YamaokaClient'
+import { YourClient } from 'structure/YourClient'
 
 export abstract class Base {
-  abstract client: YamaokaClient
+  abstract client: YourClient
 }

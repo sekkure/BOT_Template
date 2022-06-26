@@ -1,10 +1,9 @@
 import { Command } from 'abstractions/Command'
-import { Event } from 'abstractions/Event'
 import { Client, ClientOptions, Collection } from 'discord.js'
 import { join } from 'path'
 import { customReaddir } from 'utils/helpers'
 
-export class YamaokaClient extends Client {
+export class YourClient extends Client {
   public commands: Collection<string, Command> = new Collection()
 
   constructor(options: ClientOptions) {

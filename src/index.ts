@@ -1,16 +1,16 @@
 import { config } from 'dotenv'
 import { join } from 'path'
-import { YamaokaClient } from 'structure/YamaokaClient'
+import { YourClient } from 'structure/YourClient'
 
 config({ path: join(process.cwd(), '.env') })
 
-export const Yamaoka = new YamaokaClient({
+export const Client = new YourClient({
   intents: [],
 })
 
 const main = async () => {
-  await Yamaoka.init()
-  await Yamaoka.login(process.env.TOKEN)
+  await Client.init()
+  await Client.login(process.env.TOKEN)
 }
 
 main()
