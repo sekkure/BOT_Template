@@ -1,5 +1,5 @@
 const tsConfig = require('../../tsconfig.json')
-import tsConfigPaths from 'tsconfig-paths'
+const tsConfigPaths = require('tsconfig-paths')
 
 tsConfigPaths.register({
   baseUrl: './build',
