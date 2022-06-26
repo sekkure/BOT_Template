@@ -1,9 +1,9 @@
 {
-  "name": "Yamaoka",
-  "version": "0.0.1",
-  "description": "Bot for discord server",
+  "name": "bot_template",
+  "version": "1.0.0",
+  "description": "Template for creating new discord.js bots with typescript & prisma ORM",
   "main": "build/index.js",
-  "repository": "https://github.com/sekkure/Yamaoka.git",
+  "repository": "https://github.com/sekkure/BOT_Template.git",
   "author": "sekkure <secreori@gmail.com>",
   "license": "MIT",
   "dependencies": {
